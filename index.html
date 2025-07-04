@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AssistSocial - Assistência Social dedicada ao bem-estar da comunidade">
+    <title>AssistSocial - Assistência Social</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="AssistSocial Logo" class="logo-image">
+                <div class="logo-text-container">
+                    <h1 class="logo-text">AssistSocial</h1>
+                    <span class="logo-tagline">Cuidando da nossa comunidade</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#programas" class="nav-link">Programas</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="main-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3 class="sidebar-title">Nossas Unidades</h3>
+            <nav class="sidebar-nav">
+                <!-- 🔁 Redirecionamento real para página CRAS -->
+                <a href="cras.html" class="sidebar-link active-unit">
+                    <div class="unit-icon">🏢</div>
+                    <div class="unit-info">
+                        <span class="unit-name">CRAS</span>
+                        <span class="unit-desc">Centro de Referência</span>
+                    </div>
+                </a>
+                <a href="creas.html" class="sidebar-link active-unit">
+                    <div class="unit-icon">🏛️</div>
+                    <div class="unit-info">
+                        <span class="unit-name">CREAS</span>
+                        <span class="unit-desc">Centro Especializado</span>
+                    </div>
+                </a>
+                <a href="sumad.html" class="sidebar-link active-unit">
+                    <div class="unit-icon">🏥</div>
+                    <div class="unit-info">
+                        <span class="unit-name">SUMAD</span>
+                        <span class="unit-desc">Superintendência</span>
+                    </div>
+                </a>
+            </nav>
+        </aside>
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section with Carousel -->
+            <section id="inicio" class="hero-section">
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide active">
+                            <div class="slide-content">
+                                <h2 class="slide-title">Por que escolher a AssistSocial?</h2>
+                                <p class="slide-description">Somos uma organização comprometida com a transformação social, oferecendo serviços especializados e humanizados para fortalecer vínculos familiares e comunitários.</p>
+                                <div class="benefits-list">
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Atendimento personalizado e humanizado</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Equipe multidisciplinar qualificada</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Programas inovadores de inclusão social</span>
+                                    </div>
+                                </div>
+                                <a href="#sobre" class="cta-button">Conheça Nossos Serviços</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Assistência Social em ação">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <h2 class="slide-title">Excelência em Atendimento</h2>
+                                <p class="slide-description">Nossa equipe especializada oferece suporte integral às famílias, promovendo autonomia e desenvolvimento social sustentável.</p>
+                                <div class="benefits-list">
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Acompanhamento psicossocial especializado</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Orientação jurídica e social</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Atividades educativas e recreativas</span>
+                                    </div>
+                                </div>
+                                <a href="#programas" class="cta-button">Ver Nossos Programas</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.pexels.com/photos/6995301/pexels-photo-6995301.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Programas sociais">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <h2 class="slide-title">Transformando Vidas</h2>
+                                <p class="slide-description">Há mais de 15 anos construindo pontes para um futuro melhor, fortalecendo comunidades e promovendo dignidade humana.</p>
+                                <div class="benefits-list">
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Mais de 500 famílias atendidas</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Resultados comprovados na comunidade</span>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">✓</span>
+                                        <span>Parcerias estratégicas consolidadas</span>
+                                    </div>
+                                </div>
+                                <a href="#contato" class="cta-button">Entre em Contato</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Apoio comunitário">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" onclick="changeSlide(-1)">❮</button>
+                        <button class="carousel-btn next" onclick="changeSlide(1)">❯</button>
+                    </div>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" onclick="currentSlide(1)"></span>
+                        <span class="indicator" onclick="currentSlide(2)"></span>
+                        <span class="indicator" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="sobre" class="section about-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Sobre a AssistSocial</h2>
+                        <p class="section-subtitle">Conhecendo nossa história e missão</p>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Nossa Missão</h3>
+                            <p>Promover a proteção social e o fortalecimento de vínculos familiares e comunitários, garantindo o acesso aos direitos socioassistenciais e contribuindo para a melhoria da qualidade de vida da população em situação de vulnerabilidade social.</p>
+                            
+                            <h3>Nossa Visão</h3>
+                            <p>Ser reconhecida como referência em assistência social, promovendo inclusão, dignidade e transformação social sustentável em nossa comunidade.</p>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Famílias Atendidas</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15</span>
+                                <span class="stat-label">Anos de Experiência</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">30+</span>
+                                <span class="stat-label">Profissionais</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="servicos" class="section services-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">O que Fazemos</h2>
+                        <p class="section-subtitle">Nossos principais serviços e atividades</p>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">👥</div>
+                            <h3>Acompanhamento Familiar</h3>
+                            <p>Oferecemos suporte psicossocial personalizado para famílias em situação de vulnerabilidade.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">📚</div>
+                            <h3>Programas Educativos</h3>
+                            <p>Desenvolvemos atividades educativas e de capacitação para crianças, jovens e adultos.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">🤝</div>
+                            <h3>Inclusão Social</h3>
+                            <p>Promovemos a integração e participação ativa da comunidade em atividades sociais.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">💼</div>
+                            <h3>Capacitação Profissional</h3>
+                            <p>Oferecemos cursos e oficinas para desenvolvimento de habilidades profissionais.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">🏠</div>
+                            <h3>Assistência Habitacional</h3>
+                            <p>Orientamos sobre programas habitacionais e direitos relacionados à moradia.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">⚖️</div>
+                            <h3>Orientação Jurídica</h3>
+                            <p>Fornecemos orientação sobre direitos sociais e encaminhamentos jurídicos.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Programs Section -->
+            <section id="programas" class="section programs-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Nossos Programas</h2>
+                        <p class="section-subtitle">Iniciativas que transformam vidas</p>
+                    </div>
+                    <div class="programs-content">
+                        <div class="program-featured">
+                            <img src="https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Programa Família Forte">
+                            <div class="program-info">
+                                <h3>Programa Família Forte</h3>
+                                <p>Fortalecimento de vínculos familiares através de atividades educativas, oficinas e acompanhamento psicossocial especializado.</p>
+                                <ul class="program-benefits">
+                                    <li>Acompanhamento familiar personalizado</li>
+                                    <li>Oficinas de capacitação</li>
+                                    <li>Atividades recreativas</li>
+                                    <li>Apoio psicológico</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="programs-grid">
+                            <div class="program-card">
+                                <h4>Jovem Cidadão</h4>
+                                <p>Capacitação e inserção de jovens no mercado de trabalho.</p>
+                            </div>
+                            <div class="program-card">
+                                <h4>Terceira Idade Ativa</h4>
+                                <p>Atividades recreativas e cuidados para idosos.</p>
+                            </div>
+                            <div class="program-card">
+                                <h4>Primeira Infância</h4>
+                                <p>Desenvolvimento integral de crianças de 0 a 6 anos.</p>
+                            </div>
+                            <div class="program-card">
+                                <h4>Mulheres Empreendedoras</h4>
+                                <p>Capacitação em empreendedorismo para mulheres.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="galeria" class="section gallery-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Galeria</h2>
+                        <p class="section-subtitle">Momentos especiais do nosso trabalho</p>
+                    </div>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/6646943/pexels-photo-6646943.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Atividade comunitária">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/ajudando idosos.png" alt="ajudando idosos">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/6646974/pexels-photo-6646974.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Evento comunitário">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/no parque.png" alt="no parque">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/reunião.png" alt="reunião">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/6646915/pexels-photo-6646915.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Apoio comunitário">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contato" class="section contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Entre em Contato</h2>
+                        <p class="section-subtitle">Estamos aqui para ajudar você</p>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div>
+                                    <h4>Endereço</h4>
+                                    <p>Rua da Solidariedade, 123<br>Centro - Cidade - UF<br>CEP: 12345-678</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div>
+                                    <h4>Telefone</h4>
+                                    <p>(11) 1234-5678<br>(11) 9876-5432</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div>
+                                    <h4>E-mail</h4>
+                                    <p>contato@assistsocial.org.br<br>atendimento@assistsocial.org.br</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div>
+                                    <h4>Horário de Funcionamento</h4>
+                                    <p>Segunda a Sexta: 8h às 17h<br>Sábado: 8h às 12h</p>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="informacoes">Informações Gerais</option>
+                                    <option value="servicos">Serviços</option>
+                                    <option value="programas">Programas</option>
+                                    <option value="voluntariado">Voluntariado</option>
+                                    <option value="denuncia">Denúncia</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo.png" alt="AssistSocial Logo" class="footer-logo-image">
+                        <h3>AssistSocial</h3>
+                    </div>
+                    <p>Dedicados ao bem-estar e desenvolvimento social de nossa comunidade há mais de 15 anos.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#institucional">Institucional</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Acompanhamento Familiar</a></li>
+                        <li><a href="#servicos">Programas Educativos</a></li>
+                        <li><a href="#servicos">Inclusão Social</a></li>
+                        <li><a href="#servicos">Capacitação Profissional</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📍 Rua da Solidariedade, 123</p>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>📧 contato@assistsocial.org.br</p>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30096.831550334406!2d-44.2564608!3d-19.4510848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa65a9fefd3bd19%3A0xe3a8db832a67911c!2sLagoa%20Paulino!5e0!3m2!1spt-BR!2sbr!4v1751568180047!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AssistSocial. Todos os direitos reservados.</p>
+                <p>Desenvolvido com ❤️ para nossa comunidade</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
